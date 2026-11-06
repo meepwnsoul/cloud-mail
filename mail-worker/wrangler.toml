@@ -2,6 +2,7 @@ name = "cloud-mail"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
+routes = [{ pattern = "mail.meepwn.de5.net", custom_domain = true }]
 
 [observability]
 enabled = true
